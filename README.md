@@ -9,4 +9,6 @@ In 9.5U1, Zerto introduced a new Zerto Virtual Manager Linux (ZVML) appliance wh
 
 These code samples provide sample code in PowerShell showing how one could connect to a ZVML appliance and perform some common operations, such as list VPGs.
 
+# Code Samples in this Repo:
 
+- ZVML-simple-list-vpgs.ps1 - Shows how to connect to ZVM Linux appliance using Keycloak token, then list VPGs of a Zerto site
