@@ -11,4 +11,4 @@ These code samples provide sample code in PowerShell showing how one could conne
 
 # Code Samples in this Repo:
 
-- ZVML-simple-list-vpgs.ps1 - Shows how to connect to ZVM Linux appliance using Keycloak token, then list VPGs of a Zerto site
+- [ZVML-simple-list-vpgs.ps1]("ZVML-simple-list-vpgs.ps1") - Shows how to connect to ZVM Linux appliance using Keycloak token, then list VPGs of a Zerto site
