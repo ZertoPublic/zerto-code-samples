@@ -7,6 +7,8 @@ In no event shall Zerto, its authors or anyone else involved in the creation, pr
 
 # Notes:
 # - requires ZVM Linux Appliance 9.5U1 or higher, developed and tested on 9.5U3
+# - Relevant Documentation: 
+#     - Obtaining a Keycloak Token to Use in API Tools: https://help.zerto.com/bundle/Linux.ZVM.HTML/page/Keycloak_token_for_API_tools.htm
 
 # Variables to Configure
 
