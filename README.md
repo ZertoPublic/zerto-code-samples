@@ -9,6 +9,10 @@ In 9.5U1, Zerto introduced a new Zerto Virtual Manager Appliance (ZVMA) which di
 
 These code samples provide sample code in PowerShell showing how one could connect to a ZVM Appliance and perform some common operations, such as list VPGs.
 
+# Relevant Zerto Documentation
+
+- [Obtaining a Keycloak Token to Use in API Tools](https://help.zerto.com/bundle/Linux.ZVM.HTML/page/Keycloak_token_for_API_tools.htm)
+
 # Code Samples in this Repo:
 
 - [ZVML-simple-list-vpgs.ps1](ZVML-simple-list-vpgs.ps1) - Shows how to connect to ZVM Linux appliance using Keycloak token, then list VPGs of a Zerto site
