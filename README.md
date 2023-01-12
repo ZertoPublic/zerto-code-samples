@@ -7,7 +7,7 @@ In no event shall Zerto, its authors or anyone else involved in the creation, pr
 
 In 9.5U1, Zerto introduced a new Zerto Virtual Manager Appliance (ZVMA) which differs from the "classic" Zerto Virtual Manager installed on a Windows Server. First and foremost, the authentication has changed to use [Keycloak](https://www.keycloak.org), an "Open Source Identity and Access Management" solution which supports a wide range of authentication methods. With that, scripts built for the classic ZVM will not work without modification. Instead of embedding a username and password into a script, an administrator would create a secret within Keycloak, call a Keycloak API with that secret, then receive a token to make calls to the APIs on the ZVML appliance going forward.
 
-These code samples provide sample code in PowerShell showing how one could connect to a ZVM Appliance and perform some common operations, such as list VPGs.
+These code samples provide sample code showing how one could connect to a ZVM Appliance and perform some common operations, such as list VPGs.
 
 # Relevant Zerto Documentation
 
@@ -15,4 +15,5 @@ These code samples provide sample code in PowerShell showing how one could conne
 
 # Code Samples in this Repo:
 
-- [ZVML-simple-list-vpgs.ps1](ZVML-simple-list-vpgs.ps1) - Shows how to connect to ZVM Linux appliance using Keycloak token, then list VPGs of a Zerto site
+- [zvma-simple-list-vpgs.ps1](zvma-simple-list-vpgs.ps1) - PowerShell example of how to connect to ZVM Linux appliance using Keycloak token, then list VPGs of a Zerto site
+- [zvma-simple-list-vpgs.py](zvma-simple-list-vpgs.py) - Python 3.x example of how to connect to ZVM Linux appliance using Keycloak token, then list VPGs of a Zerto site
