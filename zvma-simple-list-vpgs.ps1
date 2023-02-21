@@ -30,7 +30,7 @@ $zvmApiBase = "https://" + $zvmAddress + "/v1/"
 $request = @{
 
     Headers     = @{
-        ContentType  = "application/x-www-form-urlencode"
+        ContentType  = "application/x-www-form-urlencoded"
     }
 
     Body        = @{
