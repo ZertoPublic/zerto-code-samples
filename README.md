@@ -11,7 +11,7 @@ These code samples provide sample code showing how one could connect to a ZVM Ap
 
 # Relevant Blog Post
 
-- [Creating a KeyCloak Credentials](https://www.jpaul.me/2023/04/converting-rest-api-scripts-for-zvm-appliance/) - steps 1-3
+- [Creating KeyCloak Credentials](https://www.jpaul.me/2023/04/converting-rest-api-scripts-for-zvm-appliance/) - steps 1-3
 
 # Code Samples in this Repo:
 
